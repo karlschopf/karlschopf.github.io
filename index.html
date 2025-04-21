@@ -23,12 +23,12 @@
 
     /* 🎯 Custom header styling */
     #header-title {
-      font-size: 48px;         /* change size */
-      font-weight: 700;        /* 100–900 */
-      font-style: normal;      /* italic, oblique, normal */
-      color: #ffffff;          /* hex, rgb, or named colors */
-      letter-spacing: 2px;     /* spacing between letters */
-      text-transform: none;    /* uppercase, lowercase, capitalize */
+      font-size: 36px;
+      font-weight: 700;
+      font-style: italic;
+      color: #ffffff;
+      letter-spacing: 2px;
+      text-transform: none;
       margin-bottom: 40px;
     }
 
@@ -38,12 +38,15 @@
       text-decoration: none;
       padding: 12px 24px;
       margin: 10px;
+      width: 200px;               /* ✅ Fixed button width */
+      text-align: center;         /* ✅ Ensures centered text */
       display: inline-block;
-      font-size: 18px;
-      font-weight: 500;
+      font-size: 18px;            /* ✅ You can edit this */
+      font-weight: 500;           /* ✅ Editable */
+      font-style: normal;         /* ✅ Editable */
+      font-family: 'Roboto Mono', monospace; /* ✅ Editable */
       border-radius: 0;
       border: none;
-      font-family: inherit;
     }
 
     .button:hover {
@@ -54,7 +57,7 @@
 <body>
   <h1 id="header-title">[ Karl ]</h1>
 
-  <a class="button" href="mailto:karl.schopf21@gmail.com">Email Me</a>
+  <a class="button" href="mailto:karl.schopf21@gmail.com">Email</a>
   <a class="button" href="https://instagram.com/karl.schopf/" target="_blank">Instagram</a>
   <a class="button" href="https://facebook.com/karl.schopf/" target="_blank">Facebook</a>
   <a class="button" href="https://linkedin.com/in/karlschopf" target="_blank">LinkedIn</a>
